@@ -96,28 +96,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.home) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-            Intent intent = new Intent(Intent.ACTION_PICK,android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-            startActivity(intent);
+        } else if (id == R.id.perfil) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.lovery) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.rodas) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.eventos) {
 
-            Intent share = new Intent(android.content.Intent.ACTION_SEND);
-            share.setType("text/plain");
-            share.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
-            share.putExtra(Intent.EXTRA_SUBJECT,"Aqui vai sua mensagem");
-            share.putExtra(Intent.EXTRA_TEXT,"Aqui vai mensagem ou link que deseja compartilhar");
-            startActivity(Intent.createChooser(share, "Compartilhar"));
-
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.aulas) {
 
         }
+
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

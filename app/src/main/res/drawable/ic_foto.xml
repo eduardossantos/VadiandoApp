@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/foto" />
+    <item>
+        <shape>
+            <solid />
+            <stroke
+                android:width="1dip"
+                android:color="#225786" />
+            <corners android:radius="100dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid />
+            <stroke
+                android:width="5dip"
+                android:color="#225786" />
+
+        </shape>
+    </item>
+
+</layer-list>

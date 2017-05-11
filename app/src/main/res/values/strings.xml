@@ -8,6 +8,7 @@
     <string name="fragment_A">Esta é a tela de Rodas</string>
     <string name="fragment_B">Esta é a tela de Eventos</string>
     <string name="fragment_C">Esta é a tela de Aulas</string>
+    <string name="texto_contato">Aqui terá escrito todo o texto de contato.</string>
     <string-array name="titles_Tab">
         <item>RODAS</item>
         <item>EVENTOS</item>
