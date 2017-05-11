@@ -100,13 +100,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             // Handle the camera action
         } else if (id == R.id.perfil) {
 
-        } else if (id == R.id.lovery) {
-
-        } else if (id == R.id.rodas) {
+        }  else if (id == R.id.rodas) {
 
         } else if (id == R.id.eventos) {
 
         } else if (id == R.id.aulas) {
+
+        } else if (id == R.id.contato) {
 
         }
 

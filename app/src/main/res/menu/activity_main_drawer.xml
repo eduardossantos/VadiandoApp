@@ -2,26 +2,55 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="all">
+    <group android:checkableBehavior="all"
+        android:id="@+id/home">
         <item
-            android:id="@+id/home"
-            android:title="Home" />
-        <item
-            android:id="@+id/perfil"
-            android:title="Perfil" />
-        <item
-            android:id="@+id/lovery"
-            android:title="Lovery" />
-        <item
-            android:id="@+id/rodas"
-            android:title="Rodas" />
-        <item
-            android:id="@+id/eventos"
-            android:title="Eventos" />
-        <item
-            android:id="@+id/aulas"
-            android:title="Aulas" />
 
+            android:title="Home" />
+    </group>,
+
+    <group android:checkableBehavior="all"
+        android:id="@+id/perfil">
+        <item
+
+            android:title="Perfil" />
     </group>
+
+
+    <group android:checkableBehavior="all"
+        android:id="@+id/rodas">
+        <item
+
+            android:title="Rodas" />
+    </group>
+
+    <group android:checkableBehavior="all"
+        android:id="@+id/eventos">
+        <item
+
+            android:title="Eventos" />
+    </group>
+
+    <group android:checkableBehavior="all"
+        android:id="@+id/aulas">
+        <item
+
+            android:title="Aulas" />
+    </group>
+
+    <group android:checkableBehavior="all"
+        android:id="@+id/contato">
+        <item
+
+            android:title="" />
+    </group>
+
+
+
+
+
+
+
+
 
 </menu>
