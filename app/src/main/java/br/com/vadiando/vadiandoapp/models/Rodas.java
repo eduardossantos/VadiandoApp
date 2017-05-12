@@ -6,37 +6,47 @@ package br.com.vadiando.vadiandoapp.models;
 
 public class Rodas {
 
-    private int foto;
-    private String distancia;
+    private int imagem;
+    private int favorito;
+    private String km;
     private String responsavel;
     private String endereco;
     private String dataHora;
+    private int confirmar;
+    private int visualizar;
 
-    public Rodas(int foto, String distancia, String responsavel, String endereco, String dataHora){
+    public Rodas( String km, String responsavel, String endereco, String dataHora, int imagem,int favorito,int confirmar,int visualizar ){
 
-        this.foto = foto;
-        this.distancia = distancia;
+        this.km = km;
         this.responsavel = responsavel;
         this.endereco = endereco;
         this.dataHora = dataHora;
+        this.imagem = imagem;
+        this.favorito = favorito;
+        this.confirmar = confirmar;
+        this.visualizar = visualizar;
 
     }
 
-    public int getFoto() {
-        return foto;
-    }
+    public int getConfirmar() { return confirmar;  }
 
-    public void setFoto(int foto) {
-        this.foto = foto;
-    }
+    public void setConfirmar(int confirmar) { this.confirmar = confirmar;  }
 
-    public String getDistancia() {
-        return distancia;
-    }
+    public int getVisualizar() { return visualizar;  }
 
-    public void setDistancia(String distancia) {
-        this.distancia = distancia;
-    }
+    public void setVisualizar(int visualizar) { this.visualizar = visualizar;  }
+
+    public int getImagem() { return imagem; }
+
+    public void setImagem(int imagem) { this.imagem = imagem;}
+
+    public int getFavorito() { return favorito;  }
+
+    public void setFavorito(int favorito) { this.favorito = favorito; }
+
+    public String getKm() { return km; }
+
+    public void setKm(String km) { this.km = km; }
 
     public String getResponsavel() {
         return responsavel;

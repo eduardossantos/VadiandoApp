@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+
+        android:layout_width="100dp"
+        android:layout_height="140dp">
+
+
+
+        <ImageView
+            android:id="@+id/lista_rodas_imagem"
+            android:background="@drawable/foto"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+
+            android:id="@+id/imageView"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_favorite_border_black_24dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:paddingLeft="110dp"
+        android:id="@+id/lista_rodas_texto"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/lista_rodas_kilometros"
+            android:text="564KM"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/lista_rodas_responsavel"
+            android:text="Mestre João Pequeno"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/lista_rodas_local"
+            android:text="Rua Tenente Jerônimo Mesquita"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="46dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/lista_rodas_datainicio"
+            android:text="10/07/2017 | 14:00"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="68dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_marginBottom="10dp"
+            android:id="@+id/lista_rodas_botoes"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="26dp">
+
+            <Button
+                android:textColor="#FFFFFF"
+                android:text="CONFIRMAR"
+                android:background="@color/colorAccent"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/lista_rodas_confirmar"
+                android:layout_width="140dp"
+                android:layout_height="match_parent" />
+
+            <Button
+
+                android:background="@drawable/ic_visibility"
+                android:layout_marginRight="40dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/lista_rodas_visualizar"
+                android:layout_width="56dp"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
