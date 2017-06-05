@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundhome"
+    tools:context="br.com.vadiando.vadiandoapp.HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        >
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:text="@string/bemvindo"
+            android:id="@+id/homebemvindo"
+            android:layout_marginTop="29dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            />
+
+        <ImageView
+            android:src="@drawable/logohome"
+            android:id="@+id/homelogo"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="41dp"
+            android:layout_marginBottom="58dp"/>
+        <TextView
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:text="@string/fiquepordentro"
+            android:id="@+id/homefiquepordentro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="74dp"/>
+        <Button
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorAccent"
+            android:textColor="#FFFFFF"
+            android:text="@string/cadastrar"
+            android:id="@+id/homecadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:text="@string/entrar"
+            android:id="@+id/homeentrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+
+                    android:id="@+id/homefacebook"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/facebook" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+
+                    android:id="@+id/homegoogle"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/google" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+
+                    android:id="@+id/hometweeter"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/twitter" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginRight="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="24dp"
+                    android:id="@+id/homepular"
+                    android:textColor="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pular"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
